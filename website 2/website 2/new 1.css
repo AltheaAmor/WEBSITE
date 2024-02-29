@@ -1,0 +1,106 @@
+
+body {
+    background-image: url("./image/shawn.jpg");
+	background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 200;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+	opacity: .8;
+	font-size: 20px;
+}
+ li  {
+	float: left;
+}
+
+ li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+ li a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+ li.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#HSNHS {
+	margin-left: 150px;
+	float: left;
+	height: 130px;
+	margin-top: 50px;
+}
+#deped {
+	margin-left: 150px;
+	float: left;
+	height: 110px;
+	margin-top: 50px;
+}
+#SDO {
+	margin-right: 150px;
+	float: right;
+	height: 120px;
+	margin-top: 50px;
+	
+}
+#LQP {
+	margin-right: 150px;
+	float: right;
+	height: 120px;
+	margin-top: 50px;
+}
+
+
+.header {
+	width: 70%;
+	height: 60%;
+	top: 50%;
+	left: 100px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-style:oblique;
+}
+
+
+
+
+
+
+
+
