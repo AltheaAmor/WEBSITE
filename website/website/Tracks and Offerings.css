@@ -1,0 +1,252 @@
+body{
+	font-family: 'PT Sans',sans-serif;
+	background-image:url("./image/jkl.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #b81568;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.nav li a:hover{
+	font-weight: bold;
+	color: green;
+}
+.nav li{
+	list-style: none;
+	text-align: center;
+	margin-left: 125px;
+	padding: 10px;
+}
+.nav{
+	padding: 0;
+	margin-left: 120px;
+	transition: 0.4s ease;
+	display: none;
+}
+
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	background: #373c56;
+	transition: 0.2s ease;
+	opacity: .9;
+}
+
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 1426px;
+	height: 665px;
+	transform: translate(-60px,-40px);
+}
+.change .bar{
+	background-color: white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-top: 50%;
+}
+.dropdown  {
+	display: inline-flex;
+	padding: 50px;
+	font-size: 30px;
+	margin-left: -20px;
+}
+ li a:hover, .dropdown:hover .dropbtn {
+	font-weight: bold;
+	color: green;
+} 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	margin-top: 100px;
+	font-size: 20px;
+}
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.dropdown-content ol {
+	margin-left: -15px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content ol :hover {
+	font-weight: bold;
+	color: red;
+}
+
+
+
+.SDO {
+	float: right;
+	height: 100%;
+	margin-right: 140px;
+}
+
+.HSNHS {
+	float: left;
+	height:100%;
+	margin-left: 140px;
+}
+.header-1 {
+	background-color: transparent;
+   color: black;
+   text-align: center;
+     left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 150px;
+   font-size: 25px;
+}
+footer {
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	margin-left: 5px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+  Margin-top: 100px;
+}
+.mySlides {
+  display: none;
+  height: 25%;
+  width: 50%;
+  margin-left: 27%;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-top: 25px;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.container {
+	border: solid white;
+}
+h2 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+}
+.pic {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}

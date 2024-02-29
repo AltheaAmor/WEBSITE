@@ -1,0 +1,168 @@
+body{
+	font-family: 'PT Sans',sans-serif;
+	background-image:url("./image/shawn.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #b81568;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.nav li a:hover{
+	font-weight: bold;
+	color: green;
+}
+.nav li{
+	list-style: none;
+	text-align: center;
+	margin-left: 125px;
+	padding: 10px;
+}
+.nav{
+	padding: 0;
+	margin-left: 120px;
+	transition: 0.4s ease;
+	display: none;
+}
+
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	background: #373c56;
+	transition: 0.2s ease;
+	opacity: .9;
+}
+
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 1426px;
+	height: 665px;
+	transform: translate(-60px,-40px);
+}
+.change .bar{
+	background-color: white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-top: 50%;
+}
+.dropdown  {
+	display: inline-flex;
+	padding: 50px;
+	font-size: 30px;
+	margin-left: -20px;
+}
+ li a:hover, .dropdown:hover .dropbtn {
+	font-weight: bold;
+	color: green;
+} 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	margin-top: 100px;
+	font-size: 20px;
+}
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.dropdown-content ol {
+	margin-left: -15px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content ol :hover {
+	font-weight: bold;
+	color: red;
+}
+
+#HSNHS {
+	margin-left: 150px;
+	float: left;
+	height: 130px;
+	margin-top: 50px;
+}
+#deped {
+	margin-left: 150px;
+	float: left;
+	height: 110px;
+	margin-top: 50px;
+}
+#SDO {
+	margin-right: 150px;
+	float: right;
+	height: 120px;
+	margin-top: 50px;
+	
+}
+#LQP {
+	margin-right: 150px;
+	float: right;
+	height: 120px;
+	margin-top: 50px;
+}
+
+
+
+
+.header {
+	width: 70%;
+	height: 60%;
+	top: 30%;
+	left: 100px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-style:oblique;
+}
